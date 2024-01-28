@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Jai';
+    src: url('./Assetts/Jai.TTF');
+}
+
+@font-face {
+    font-family: 'Tango';
+    src: url('./Assetts/Tango.ttf');
+}
+.tempo{
+    height: 100px;
+}
+
+.tempo p:first-of-type{
+    font-family: 'Tango';
+    font-size: 7vw;
+    color: red;
+}
+
+.tempo p:last-of-type{
+    font-family: 'Jai';
+    font-size: 2vw;
+}

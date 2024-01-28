@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
+import Tempo from './Components/Tempo';
 function App() {
   return (
     <div className="App">
-      Under construction. Test 
+      <Tempo/> 
     </div>
   );
 }
