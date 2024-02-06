@@ -28,7 +28,7 @@
 
 .nav-links{
     /* background-color: pink; */
-    margin-top: -3vh;
+    margin-top: -2vw;
     margin-left: 20vw;
     margin-right: 20vw;
     display: block;
@@ -49,4 +49,12 @@
 .nav-links li:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+#box-2{
+    color: var(--primary-red);
+}
+
+#box-4{
+    color: var(--primary-red);
 }
