@@ -26,7 +26,11 @@ function Landing() {
           </div>
           <div className="edu-row-2">
             <div id="box-3">Email</div>
-            <div id="box-4">ak3776@drexel.edu</div>
+            <div id="box-4">
+              <a href="mailto:ak3776@drexel.edu" target="_blank" rel="noopener noreferrer">
+                ak3776@drexel.edu
+              </a>
+            </div>
           </div>
         </div>
       </div>

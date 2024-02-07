@@ -1,9 +1,77 @@
+:root{
+    --primary-red: #A62633;
+    --text-color: #412633;
+}
+
+@font-face {
+    font-family: 'Tango';
+    src: url('./Assetts/Tango.ttf');
+}
+
+@font-face {
+    font-family: 'Jai';
+    src: url('./Assetts/Jai.TTF');
+}
 
 .work-exp-container{
     margin-left: 7vw;
     margin-right: 7vw;
     margin-top: 9.7vh;
-    height: 80vh;
-    border: 2px solid black;
-    background-color: red;
+    /* height: 85vh; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.jobs-container{
+    /* background-color: green; */
+}
+
+.tvs-container{
+    /* background-color: aqua; */
+    margin-top: 8vh;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.tv-img{
+    width: 25vw;
+    /* margin-top: 6vh; */
+    float:right;
+    /* mix-blend-mode: darken; */
+}
+
+.tv-work-img{
+    position: absolute;
+    width: 20vw;
+    margin-top: 9.5vh;
+    margin-left: 15.5vw;
+}
+
+.work-text-container{
+    display: flex;
+}
+
+.work-text{
+    flex: 2;
+    font-size: 1.2vw;
+    font-family: 'Jai';
+    color: var(--text-color);
+}
+
+.work-text p{
+    margin-right: 2vw;
+}
+.work-heading{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    flex: 3;
+    font-family: 'Tango';
+    color: var(--primary-red);
+    font-size: 6vw;
+    /* background-color: blueviolet; */
+}
+
+.work-heading p{
+    /* margin-top: 50%; */
 }

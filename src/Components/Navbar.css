@@ -43,7 +43,7 @@
 
 .nav-links li{
     font-family: 'Jai';
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 
 .nav-links li:hover{
@@ -57,4 +57,9 @@
 
 #box-4{
     color: var(--primary-red);
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: var(--text-color);
 }

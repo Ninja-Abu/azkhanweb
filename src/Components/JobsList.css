@@ -1,0 +1,52 @@
+:root{
+    --primary-red: #A62633;
+    --text-color: #412633;
+}
+
+@font-face {
+    font-family: 'Tango';
+    src: url('./Assetts/Tango.ttf');
+}
+
+@font-face {
+    font-family: 'Jai';
+    src: url('./Assetts/Jai.TTF');
+}
+
+.jobs-container{
+    margin-top: 8vh;
+    width: 40vw;
+    font-size: 1.2vw;
+    font-family: 'Jai';
+    position: relative;
+
+}
+
+.jobs-list{
+    /* background-color: grey; */
+}
+
+.job-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5vh;
+}
+
+.jobs-list #dates{
+    /* background-color: aqua; */
+    color: var(--primary-red);
+}
+
+.jobs-list #company{
+    flex: 1;
+    /* background-color: blueviolet; */
+    margin-left: 3vw;
+    color: var(--text-color);
+}
+
+.jobs-container #role{
+    flex: 1;
+    /* background-color: cadetblue; */
+    margin-left: 1vw;
+    color: var(--text-color);
+}

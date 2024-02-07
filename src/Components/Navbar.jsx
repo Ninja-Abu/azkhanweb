@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import resumePDF from './Assetts/LatexAbuOG_Frontend.pdf'
+
 function Navbar() {
   return (
     <div className="landing-nav">
@@ -11,7 +13,7 @@ function Navbar() {
                     <li>Experience</li>
                     <li>Projects</li>
                     <li>About Me</li>
-                    <li>Resume</li>
+                    <li> <a href={resumePDF} target='_toBlank'>Resume</a></li>
                 </ul>
         </div>
     </div>
