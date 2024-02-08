@@ -1,8 +1,41 @@
+:root{
+    --primary-red: #A62633;
+    --text-color: #412633;
+}
+
+@font-face {
+    font-family: 'Tango';
+    src: url('./Assetts/Tango.ttf');
+}
+
+@font-face {
+    font-family: 'Jai';
+    src: url('./Assetts/Jai.TTF');
+}
+
 .projects-container{
-    margin-left: 7vw;
-    margin-right: 7vw;
     margin-top: 9.7vh;
-    height: 80vh;
+    height: 100vh;
     border: 2px solid black;
     background-color: blue;
+    display: flex;
+}
+
+.proj-left-container{
+    background-color: var(--primary-red);
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.proj-left-desc{
+    flex: 1;
+}
+
+.proj-left-title{
+    flex: 1;
+}
+.proj-right-container{
+    background-color: gray;
+    flex: 3;
 }
