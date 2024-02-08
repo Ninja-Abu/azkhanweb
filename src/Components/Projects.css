@@ -16,8 +16,8 @@
 .projects-container{
     margin-top: 9.7vh;
     height: 100vh;
-    border: 2px solid black;
-    background-color: blue;
+    /* border: 2px solid black;
+    background-color: blue; */
     display: flex;
 }
 
@@ -29,13 +29,44 @@
 }
 
 .proj-left-desc{
-    flex: 1;
+    flex: 2;
+    display: flex;
+    font-family: 'Jai';
+    font-size: 1.2vw;
+    color: white;
+    /* background-color: aqua; */
+    margin-left: 7vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-right: 7vw;
 }
 
 .proj-left-title{
-    flex: 1;
+    flex: 3;
+    transform-origin: 0 0;
+    /* transform: rotate(270deg); */
+    color: white;
+    font-family: 'Tango';
+    display: flex;
+    /* background-color: violet; */
+    justify-content: center;
+    align-items: center;
 }
+
+.proj-left-title p{
+    display: flex;
+    align-items: center;
+    transform: rotate(270deg);
+    font-size: 5vw;
+}
+
 .proj-right-container{
     background-color: gray;
     flex: 3;
+}
+
+.scroll-container{
+    background-color: blue;
+    display: flex;
+    height:100%;
 }

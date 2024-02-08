@@ -1,0 +1,19 @@
+.proj-scroll-container{
+    background-color: aqua;
+    margin-top: 7vh;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    margin-bottom: 3.5vw;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.proj-hygia{
+    background-color: pink;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    border-radius: 20px;
+    height: 400px;
+}
