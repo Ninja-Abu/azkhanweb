@@ -2,6 +2,8 @@ import React from 'react'
 import './AboutMe.css'
 
 import AboutMeAbu from './Assetts/AboutMeAbu.png'
+import LILogo from './Assetts/LinkedinLogo.png'
+import MailLogo from './Assetts/MailLogo.png'
 
 export default function AboutMe() {
   return (
@@ -40,19 +42,21 @@ export default function AboutMe() {
             <div className="right-contact-container">
               <div className="contact-left-container">
                 <h1>Contact Me</h1>
+                <div className="contact-left-icons-container">
+                  <img className='LILogo' src={LILogo} alt='LinkedIn'/>
+                  <img className='MailLogo' src={MailLogo} alt='Mail Me'/>
+                </div>
               </div>
               <div className="contact-right-container">
-                Right
+                <div className="contact-right-form">
+                  <form>
+                    <input type='text' placeholder='Name'/>
+                    <input type='text' placeholder='Email / LinkedIn'/>
+                    <textarea placeholder='Enter your message here'/>
+                    <button type='submit' className='send-btn'> Send </button>
+                  </form>
+                </div>
               </div>
-              {/* 
-              <div className="contact-content-container">
-                <div className="contact-left-container">
-                  Logos
-                </div>
-                <div className="contact-right-container">
-                  Form
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

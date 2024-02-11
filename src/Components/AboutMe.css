@@ -16,7 +16,7 @@
 .aboutme-container{
     height: 100vh;
     /* border: 2px solid black; */
-    background-color: green;
+    /* background-color: green; */
     display: flex;
 }
 
@@ -69,12 +69,12 @@
     margin-top: 7vh;
     margin-left: 3.5vw;
     margin-right: 3.5vw;
-    margin-bottom: 3.5vw;
+    /* margin-bottom: 3.5vw; */
 }
 
 .right-skills-container{
     flex: 1;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 h1{
@@ -86,7 +86,7 @@ h1{
 .skills-table-container{
     display: flex;
     height: fit-content;
-    background-color: bisque;
+    /* background-color: bisque; */
     margin: 1vw;
 }
 
@@ -95,27 +95,78 @@ h1{
     font-size: 1.2vw;
     font-family: 'Jai';
     width: 100%; 
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-collapse: collapse;
 }
 tr{
     height: 6vh;
 }
 td {
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
 }
 
 .right-contact-container{
     flex:1;
-    background-color: violet;
+    /* background-color: violet; */
     display: flex;
 }
 .contact-left-container{
+    display: flex;
+    flex-direction: column;
     flex: 1;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
+.contact-left-icons-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: beige; */
+}
 .contact-right-container{
     flex: 1;
-    background-color: yellow;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.contact-right-form{
+    width: 100%;
+    margin-top: 2vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.contact-right-form input,
+textarea,
+.send-btn{
+    color: var(--text-color);
+    font-size: 1.2vw;
+    margin-bottom: 2vh;
+    width: 100%;
+    display: block;
+    border: 0;
+    font-family: 'Jai';
+    resize: none;
+}
+
+.contact-right-form input{
+    border-bottom: 2px solid #412633;
+    height: 4vh;
+}
+
+.contact-right-form textarea{
+    border: 2px solid #412633;
+    height: 20vh;
+}
+
+.send-btn{
+    width: max-content;
+    padding: 1vh;
+    float: right;
+    margin-top: -2vh;
+    background-color: var(--primary-red);
+    color: white;
 }

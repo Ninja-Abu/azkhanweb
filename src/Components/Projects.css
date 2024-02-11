@@ -62,12 +62,12 @@
 }
 
 .proj-right-container{
-    background-color: gray;
+    /* background-color: gray; */
     flex: 3;
 }
 
 .scroll-container{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     height:100%;
 }
