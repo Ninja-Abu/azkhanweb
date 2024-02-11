@@ -14,6 +14,9 @@ function App() {
       <WorkExp/> 
       <Projects/>
       <AboutMe/> 
+      <div>
+        Work under construction
+      </div>
     </div>
   );
 }

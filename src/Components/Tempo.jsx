@@ -9,7 +9,7 @@ function Tempo(){
             </p>
             <p>
                 Contact me at:
-                <a href="#">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/abuzaidkhan/" target="toBlank">LinkedIn</a>
             </p>
         </div>
     )

@@ -1,8 +1,62 @@
+:root{
+    --primary-red: #A62633;
+    --text-color: #412633;
+}
+
+@font-face {
+    font-family: 'Tango';
+    src: url('./Assetts/Tango.ttf');
+}
+
+@font-face {
+    font-family: 'Jai';
+    src: url('./Assetts/Jai.TTF');
+}
+
 .aboutme-container{
+    height: 100vh;
+    /* border: 2px solid black; */
+    background-color: green;
+    display: flex;
+}
+
+.about-left-container{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: var(--primary-red);
+}
+
+.left-img-container{
+    display: flex;
+    flex: 1;
+    /* background-color: pink; */
+    align-items: center;
+    justify-content: center;
+}
+
+.left-img-container img{
+    mix-blend-mode: darken;
+}
+
+.left-text-container{
+    display: flex;
+    flex: 1;
+    /* background-color: violet; */
+    align-items: center;
+    justify-content: center;
+}
+
+.left-text-container p{
+    font-family: 'Jai';
+    font-size: 1.2vw;
+    color: white;
+    text-align: justify;
     margin-left: 7vw;
     margin-right: 7vw;
-    margin-top: 9.7vh;
-    height: 80vh;
-    border: 2px solid black;
-    background-color: green;
 }
+
+.about-right-container{
+    flex: 3;
+}
+

@@ -29,6 +29,7 @@
 }
 
 .proj-left-desc{
+    text-align: justify;
     flex: 2;
     display: flex;
     font-family: 'Jai';

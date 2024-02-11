@@ -18,7 +18,7 @@
     margin-right: 7vw;
     margin-top: 9.7vh;
     /* height: 85vh; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -28,7 +28,7 @@
 
 .tvs-container{
     /* background-color: aqua; */
-    margin-top: 8vh;
+    /* margin-top: 8vh; */
     justify-content: flex-end;
     flex-grow: 1;
 }
@@ -43,12 +43,13 @@
 .tv-work-img{
     position: absolute;
     width: 20vw;
-    margin-top: 9.5vh;
+    /* margin-top: 9.5vh; */
     margin-left: 15.5vw;
 }
 
 .work-text-container{
     display: flex;
+    text-align: justify;
 }
 
 .work-text{
