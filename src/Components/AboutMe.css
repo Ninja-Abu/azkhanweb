@@ -58,5 +58,64 @@
 
 .about-right-container{
     flex: 3;
+    display: flex;
+    height:100%;
 }
 
+.about-right-content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 7vh;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    margin-bottom: 3.5vw;
+}
+
+.right-skills-container{
+    flex: 1;
+    background-color: pink;
+}
+
+h1{
+    font-family: 'Tango';
+    color: var(--primary-red);
+    font-size: 4vw;
+}
+
+.skills-table-container{
+    display: flex;
+    height: fit-content;
+    background-color: bisque;
+    margin: 1vw;
+}
+
+.skills-table-container table{
+    color: var(--text-color);
+    font-size: 1.2vw;
+    font-family: 'Jai';
+    width: 100%; 
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+tr{
+    height: 6vh;
+}
+td {
+    border: 1px solid aqua;
+}
+
+.right-contact-container{
+    flex:1;
+    background-color: violet;
+    display: flex;
+}
+.contact-left-container{
+    flex: 1;
+    background-color: aqua;
+}
+
+.contact-right-container{
+    flex: 1;
+    background-color: yellow;
+}

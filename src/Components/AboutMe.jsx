@@ -17,7 +17,44 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="about-right-container">
-          Right
+          <div className="about-right-content-container">
+            <div className="right-skills-container">
+              <h1>Skills</h1>
+              <div className="skills-table-container">
+                <table>
+                  <tr>
+                    <td>HTML</td><td>CSS</td><td>ReactJS</td><td>JavaScript</td><td>One More</td>
+                  </tr>
+                  <tr>
+                    <td>HTML</td><td>CSS</td><td>ReactJS</td><td>JavaScript</td><td>One More</td>
+                  </tr>
+                  <tr>
+                    <td>HTML</td><td>CSS</td><td>ReactJS</td><td>JavaScript</td><td>One More</td>
+                  </tr>
+                  <tr>
+                    <td>HTML</td><td>CSS</td><td>ReactJS</td><td>JavaScript</td><td>One More</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div className="right-contact-container">
+              <div className="contact-left-container">
+                <h1>Contact Me</h1>
+              </div>
+              <div className="contact-right-container">
+                Right
+              </div>
+              {/* 
+              <div className="contact-content-container">
+                <div className="contact-left-container">
+                  Logos
+                </div>
+                <div className="contact-right-container">
+                  Form
+                </div>
+              </div> */}
+            </div>
+          </div>
         </div>
     </div>
   )
