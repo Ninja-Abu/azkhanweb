@@ -50,3 +50,8 @@
     margin-left: 1vw;
     color: var(--text-color);
 }
+
+.job-1:hover{
+    border: 2px solid #412633;
+    font-size: 1.4vw;
+}

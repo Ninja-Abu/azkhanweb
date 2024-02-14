@@ -25,16 +25,16 @@ export default function AboutMe() {
               <div className="skills-table-container">
                 <table>
                   <tr>
-                    <td>HTML</td><td>CSS</td><td>ReactJS</td><td>JavaScript</td><td>One More</td>
+                    <td>JavaScript</td><td>HTML</td><td>CSS</td><td>Java</td><td>C</td>
                   </tr>
                   <tr>
-                    <td>HTML</td><td>CSS</td><td>ReactJS</td><td>JavaScript</td><td>One More</td>
+                    <td>C++</td><td>React</td><td>Node</td><td>D3.js</td><td>Bootstrap</td>
                   </tr>
                   <tr>
-                    <td>HTML</td><td>CSS</td><td>ReactJS</td><td>JavaScript</td><td>One More</td>
+                    <td>Vue2</td><td>Jest</td><td>Cypress</td><td>Git</td><td>Docker</td>
                   </tr>
                   <tr>
-                    <td>HTML</td><td>CSS</td><td>ReactJS</td><td>JavaScript</td><td>One More</td>
+                    <td>Firebase</td><td>AWS</td><td>Figma</td><td>WordPress</td><td>Salesforce</td>
                   </tr>
                 </table>
               </div>
