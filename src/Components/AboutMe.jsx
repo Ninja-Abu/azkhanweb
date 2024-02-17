@@ -5,9 +5,9 @@ import AboutMeAbu from './Assetts/AboutMeAbu.png'
 import LILogo from './Assetts/LinkedinLogo.png'
 import MailLogo from './Assetts/MailLogo.png'
 
-export default function AboutMe() {
+export default function AboutMe({ useRef }) {
   return (
-    <div className="aboutme-container">
+    <div ref={useRef} className="aboutme-container">
         <div className="about-left-container">
           <div className="left-img-container">
             <img src={AboutMeAbu} alt='About Me'/>

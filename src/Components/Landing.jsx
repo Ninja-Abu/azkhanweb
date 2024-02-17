@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Landing.css'
 
 import Navbar from './Navbar'
 import landingImg from './Assetts/landingImg.png'
 
-function Landing() {
+function Landing({ scrollToWork, scrollToProj, scrollToAbout }) {
+
   return (
     <div className="landing-container">
-      <Navbar/>
+      <Navbar
+        scrollToWork={scrollToWork}
+        scrollToProj={scrollToProj}
+        scrollToAbout={scrollToAbout}
+      />
       
       <div className="landing-img-container">
         <div className="landing-img">

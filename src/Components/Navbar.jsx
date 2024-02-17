@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import resumePDF from './Assetts/LatexAbuOG_Frontend.pdf'
 
-function Navbar() {
+function Navbar({ scrollToWork, scrollToProj, scrollToAbout }) {
   return (
     <div className="landing-nav">
         <div className="nav-head">
@@ -10,9 +10,9 @@ function Navbar() {
         </div>
             <div className="nav-links">
                 <ul>
-                    <li>Experience</li>
-                    <li>Projects</li>
-                    <li>About Me</li>
+                    <li onClick={scrollToWork}>Experience</li>
+                    <li onClick={scrollToProj}>Projects</li>
+                    <li onClick={scrollToAbout}>About Me</li>
                     <li> <a href={resumePDF} target='_toBlank'>Resume</a></li>
                 </ul>
         </div>

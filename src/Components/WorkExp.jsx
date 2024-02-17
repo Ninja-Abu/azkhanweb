@@ -9,7 +9,7 @@ import JobsList from './JobsList'
 
 
 
-export default function WorkExp() {
+export default function WorkExp({ useRef }) {
 
   const JobDesc = [
     "In roles at Lucet, VAC Motorsport, and freelance graphic design, I've excelled in driving data-driven product development, boosting product adoption, and enhancing user engagement. Proficient in JavaScript, React, D3.js, Pendo, and design tools, my achievements range from integrating SaaS clients to automating analytics reporting, optimizing website traffic, and delivering impactful visual designs.......................................",
@@ -34,7 +34,7 @@ export default function WorkExp() {
   }
 
   return (
-    <div className="work-exp-container">
+    <div ref={useRef} className="work-exp-container">
       <div className="jobs-list-container">
 
         <JobsList
