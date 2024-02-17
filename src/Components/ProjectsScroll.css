@@ -1,5 +1,6 @@
 .proj-scroll-container{
-    background-color: aqua;
+    /* background-color: aqua; */
+    border: 1px solid grey;
     margin-top: 7vh;
     margin-left: 3.5vw;
     margin-right: 3.5vw;
@@ -14,6 +15,5 @@
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 2vh;
-    border-radius: 20px;
     height: 400px;
 }
