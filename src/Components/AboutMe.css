@@ -14,7 +14,7 @@
 }
 
 .aboutme-container{
-    height: 100vh;
+    height: 110vh;
     /* border: 2px solid black; */
     /* background-color: green; */
     display: flex;
@@ -28,6 +28,7 @@
 }
 
 .left-img-container{
+    
     display: flex;
     flex: 1;
     /* background-color: pink; */
@@ -37,6 +38,8 @@
 
 .left-img-container img{
     mix-blend-mode: darken;
+    position: absolute;
+    width: 20vw;
 }
 
 .left-text-container{

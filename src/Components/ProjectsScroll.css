@@ -1,6 +1,22 @@
+:root{
+    --primary-red: #A62633;
+    --text-color: #412633;
+}
+
+@font-face {
+    font-family: 'Tango';
+    src: url('./Assetts/Tango.ttf');
+}
+
+@font-face {
+    font-family: 'Jai';
+    src: url('./Assetts/Jai.TTF');
+}
+
+
 .proj-scroll-container{
     /* background-color: aqua; */
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     margin-top: 7vh;
     margin-left: 3.5vw;
     margin-right: 3.5vw;
@@ -8,12 +24,52 @@
     width: 100%;
     overflow: hidden;
     overflow-y: scroll;
+    font-family: 'Jai';
+    font-size: 1.2vw;    
 }
 
 .proj-hygia{
-    background-color: pink;
+    /* background-color: pink; */
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 2vh;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.proj-hygia:hover{
+    /* border: 1px solid black; */
+    /* box-shadow: 0px 2px 1px 5px rgba(171,171,171,1); */
+}
+
+.job-top-head{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.proj-heading{
+    color: var(--text-color);
+}
+
+.proj-year{
+    color: var(--primary-red);
+}
+
+.job-top-bottom{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.image-container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img{
+    width: 100%;
 }

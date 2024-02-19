@@ -14,7 +14,7 @@ export default function AboutMe({ useRef }) {
           </div>
           <div className="left-text-container">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             As an innovative Front-End Developer, I blend creativity with technology to design and develop user-centric web applications. I'm passionate about solving intricate problems, achieving tangible results, and championing data-driven development. A proactive learner with deep interest in user behavior, I'm fluent in the latest technologies across product design, development, and deployment. I'm driven to enhance product efficiency and design, leveraging my inquisitiveness and creativity for significant contributions to innovative solutions.
             </p>
           </div>
         </div>
@@ -43,8 +43,12 @@ export default function AboutMe({ useRef }) {
               <div className="contact-left-container">
                 <h1>Contact Me</h1>
                 <div className="contact-left-icons-container">
-                  <img className='LILogo' src={LILogo} alt='LinkedIn'/>
-                  <img className='MailLogo' src={MailLogo} alt='Mail Me'/>
+                  <a href='https://www.linkedin.com/in/abuzaidkhan/' target='_toBlank'>
+                    <img className='LILogo' src={LILogo} alt='LinkedIn'/>
+                  </a>
+                  <a href='mailto:ak3776@drexel.edu' target='_toBlank'>
+                    <img className='MailLogo' src={MailLogo} alt='Mail Me'/>
+                  </a>
                 </div>
               </div>
               <div className="contact-right-container">
