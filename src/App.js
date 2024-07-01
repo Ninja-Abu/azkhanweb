@@ -4,6 +4,8 @@ import Landing from './Components/Landing';
 import WorkExp from './Components/WorkExp';
 import Projects from './Components/Projects';
 import AboutMe from './Components/AboutMe'
+
+import Navbar from './Components/Navbar';
 import { useRef } from 'react';
 
 function App() {
@@ -21,14 +23,16 @@ function App() {
 
   return (
     <div className="App">
-      <Landing
+      <Navbar/>
+
+      {/* <Landing
         scrollToWork={() => scrollToSection(workRef)} 
         scrollToProj={() => scrollToSection(projRef)} 
         scrollToAbout={() => scrollToSection(aboutRef)}
       /> 
       <WorkExp useRef={workRef}/> 
       <Projects useRef={projRef}/>
-      <AboutMe useRef={aboutRef}/> 
+      <AboutMe useRef={aboutRef}/>  */}
     </div>
   );
 }
