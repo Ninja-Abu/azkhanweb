@@ -1,0 +1,66 @@
+.screen-container{
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.screen-content-container{
+    background-color: yellow;
+    display: flex;
+    width: 100%;
+}
+.screen-home-content{
+    background-color: green;
+    display: flex;
+    width: 100%;
+}
+ 
+.screen-other-content{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.screen-about-content{
+    background-color: orange;
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .screen-other-content{
+        flex-direction: column;
+    }
+}
+
+.screen-other-left{
+    background-color: #1e1e1e;
+    flex: 1;
+    overflow-y: auto;
+    /* height: 100%; */
+    border-right: 20px solid #3C3C3C;
+}
+
+.screen-other-right{
+    background-color: #1e1e1e;
+    flex: 1;
+    overflow: hidden;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-query-container{
+    width: 100%;
+    /* position: fixed; */
+    position: absolute;
+    /* display: none; */
+    background-color: black;
+    color: white;
+    bottom: 0;
+    z-index: 1000;
+} 
+

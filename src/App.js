@@ -1,38 +1,34 @@
 import './App.css';
 
-import Landing from './Components/Landing';
-import WorkExp from './Components/WorkExp';
-import Projects from './Components/Projects';
-import AboutMe from './Components/AboutMe'
-
 import Navbar from './Components/Navbar';
-import { useRef } from 'react';
+import LeftBar from './Components/LeftBar';
+import ScreenContent from './Components/ScreenContent';
+import React, { useState } from 'react';
+
 
 function App() {
+    const [screenContent, setScreenContent] = useState('Landing.txt');
+    const [searchQuery, setSearchQuery] = useState('');
 
-  const workRef = useRef(null)
-  const projRef = useRef(null)
-  const aboutRef = useRef(null)
+    const handleScreenChange = (content) => {
+        setScreenContent(content);
+    }
 
-  const scrollToSection = (ref) => {
-    ref.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
-  }
+    const handleSearchQuery = (query) => {
+        setSearchQuery(query);
+    }
 
   return (
     <div className="App">
-      <Navbar/>
-
-      {/* <Landing
-        scrollToWork={() => scrollToSection(workRef)} 
-        scrollToProj={() => scrollToSection(projRef)} 
-        scrollToAbout={() => scrollToSection(aboutRef)}
-      /> 
-      <WorkExp useRef={workRef}/> 
-      <Projects useRef={projRef}/>
-      <AboutMe useRef={aboutRef}/>  */}
+      <Navbar handleSearchQuery={handleSearchQuery}/>
+      <div className='content-container'>
+        <div className='left-container'>
+          <LeftBar handleScreenChange={handleScreenChange}/>
+        </div>
+        <div className='right-container'>
+          <ScreenContent screenName={screenContent} searchQuery={searchQuery}/>
+        </div>
+      </div>
     </div>
   );
 }

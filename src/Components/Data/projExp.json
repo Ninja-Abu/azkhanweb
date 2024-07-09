@@ -1,0 +1,114 @@
+[
+    {
+      "filename": "Hummingbird.txt",
+      "jobName": "Hummingbird",
+      "position": "Software Engineer",
+      "URL": "https://vacmotorsports.com/",
+      "startDate": "September 2019",
+      "endDate": "April 2020",
+      "description": "Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions.",
+      "links": [],
+      "images": [
+        {
+          "name": "Project 1",
+          "filename": "project1.jpg"
+        },
+        {
+          "name": "Project 2",
+          "filename": "project2.jpg"
+        }
+      ]
+    },
+    {
+      "filename": "Hygia.txt",
+      "jobName": "Hygia (formerly Tridiuum)",
+      "position": "Software Engineer",
+      "URL": "https://lucethealth.com/",
+      "startDate": "September 2020",
+      "endDate": "April 2021",
+      "description": "Contributed to healthcare technology advancements.",
+      "links": [
+        "https://www.tridiuum.com/case-studies",
+        "https://www.tridiuum.com/research"
+      ],
+      "images": [
+        {
+          "name": "Healthcare Tech",
+          "filename": "healthcare_tech.jpg"
+        },
+        {
+          "name": "Research",
+          "filename": "research.jpg"
+        }
+      ]
+    },
+    {
+        "filename": "Digital_Pathology.txt",
+        "jobName": "Digital_Pathology (formerly Tridiuum)",
+        "position": "Software Engineer",
+        "URL": "https://lucethealth.com/",
+        "startDate": "September 2021",
+        "endDate": "April 2022",
+        "description": "Contributed to healthcare technology advancements. Tridiuum2",
+        "links": [
+          "https://www.tridiuum.com/case-studies",
+          "https://www.tridiuum.com/research"
+        ],
+        "images": [
+          {
+            "name": "Healthcare Tech 2",
+            "filename": "healthcare_tech.jpg"
+          },
+          {
+            "name": "Research 2",
+            "filename": "research.jpg"
+          }
+        ]
+      },
+      {
+        "filename": "Roof.txt",
+        "jobName": "Roof Print Solutions",
+        "position": "Software Engineer",
+        "URL": "NA",
+        "startDate": "May 2017",
+        "endDate": "September 2019",
+        "description": "Designed Graphics",
+        "links": [
+          "https://www.tridiuum.com/case-studies",
+          "https://www.tridiuum.com/research"
+        ],
+        "images": [
+          {
+            "name": "Healthcare Tech",
+            "filename": "healthcare_tech.jpg"
+          },
+          {
+            "name": "Research",
+            "filename": "research.jpg"
+          }
+        ]
+      },
+      {
+        "filename": "Submission.txt",
+        "jobName": "Submission Print Solutions",
+        "position": "Software Engineer",
+        "URL": "NA",
+        "startDate": "May 2017",
+        "endDate": "September 2019",
+        "description": "Designed Graphics",
+        "links": [
+          "https://www.tridiuum.com/case-studies",
+          "https://www.tridiuum.com/research"
+        ],
+        "images": [
+          {
+            "name": "Healthcare Tech",
+            "filename": "healthcare_tech.jpg"
+          },
+          {
+            "name": "Research",
+            "filename": "research.jpg"
+          }
+        ]
+      }
+  ]

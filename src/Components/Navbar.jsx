@@ -4,17 +4,29 @@ import resumePDF from './Assetts/LatexAbuOG_Frontend.pdf'
 
 var logo = require('./Assetts/AZLogo.png');
 var SearchIcon = require('./Assetts/Search icon.png');
+var SendIcon = require('./Assetts/SendIcon.png');
 var GithubIcon = require('./Assetts/GithubLogo.png');
 var LinkedInLogo = require('./Assetts/LinkedinLogo.png');
 var ResumeLogo = require('./Assetts/ResumeLogo.png');
 var OtherLogo = require('./Assetts/OtherLogo.png');
 
-function Navbar({ scrollToWork, scrollToProj, scrollToAbout }) {
+function Navbar({ handleSearchQuery }) {
 
     const [dropdownOpen, setDropdownOpen] = useState(false);
+    const [searchText, setSearchText] = useState('');
 
     const toggleDropdown = () => {
         setDropdownOpen(!dropdownOpen);
+    }
+
+    const handleInputChange = (e) => {
+      setSearchText(e.target.value);
+    }
+
+    const handleSearch = (e) => {
+      e.preventDefault();
+      handleSearchQuery(searchText);
+      setSearchText('');
     }
 
   return (
@@ -27,12 +39,18 @@ function Navbar({ scrollToWork, scrollToProj, scrollToAbout }) {
           <span>
             <img src={SearchIcon} alt="Search" />
           </span>
-          <form>
+          <form onSubmit={handleSearch}>
             <input 
               type="text"
               className='search-bar' 
-              placeholder="Search anything about me..." />
+              placeholder="Search anything about me..." 
+              value={searchText}
+              onChange={handleInputChange}
+              />
           </form>
+          <div className="search-send" onClick={handleSearch}>
+            <img src={SendIcon} alt="Send" />
+          </div>
         </div>
       </div>
       <div className="nav-links">
@@ -43,7 +61,7 @@ function Navbar({ scrollToWork, scrollToProj, scrollToAbout }) {
             <img src={GithubIcon} alt="Github" />
           </a>
 
-          <a href="https://www.linkedin.com/in/abu-zaid-khan/" target='_toBlank'>
+          <a href="https://www.linkedin.com/in/abuzaidkhan/" target='_toBlank'>
             <img src={LinkedInLogo} alt="LinkedIn" />
           </a>
 
@@ -62,7 +80,7 @@ function Navbar({ scrollToWork, scrollToProj, scrollToAbout }) {
                 <img src={GithubIcon} alt="Github" />
               </a>
 
-              <a href="https://www.linkedin.com/in/abu-zaid-khan/" target='_toBlank'>
+              <a href="https://www.linkedin.com/in/abuzaidkhan/" target='_toBlank'>
                 <img src={LinkedInLogo} alt="LinkedIn" />
               </a>
 
@@ -80,15 +98,3 @@ function Navbar({ scrollToWork, scrollToProj, scrollToAbout }) {
 
 export default Navbar
 
-
-        {/* <div className="nav-head">
-            Abu Zaid Khan
-        </div>
-        <div className="nav-links">
-            <ul>
-                <li onClick={scrollToWork}>Experience</li>
-                <li onClick={scrollToProj}>Projects</li>
-                <li onClick={scrollToAbout}>About Me</li>
-                <li> <a href={resumePDF} target='_toBlank'>Resume</a></li>
-            </ul>
-        </div> */}
