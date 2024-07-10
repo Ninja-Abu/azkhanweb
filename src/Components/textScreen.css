@@ -12,6 +12,7 @@
     word-wrap: break-word;
     /* height: 100%; */
     background-color: #1e1e1e;
+    margin-bottom: 30px;
 }
 
 .code-content {
@@ -42,7 +43,7 @@
 }
 
 .line>span {
-    /* display: inline-block; */
+    display: flex;
     /* border-bottom: 2px solid black; */
 }
 .line-content{
@@ -51,7 +52,10 @@
     padding-left: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a:link{
+    color:  #ffa366;
+}
+
+a:visited{
+    color: #33ffad;
 }

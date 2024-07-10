@@ -1,113 +1,206 @@
 [
     {
       "filename": "Hummingbird.txt",
-      "jobName": "Hummingbird",
-      "position": "Software Engineer",
-      "URL": "https://vacmotorsports.com/",
-      "startDate": "September 2019",
-      "endDate": "April 2020",
-      "description": "Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions. Worked as a software engineer focusing on automotive software solutions.",
-      "links": [],
-      "images": [
+      "jobName": "Hummingbird [DragonHacks 2024 WINNER]",
+      "position": "Student Participant",
+      "URL": "https://devpost.com/software/aerial-escort",
+      "startDate": "April 2024",
+      "endDate": "April 2024",
+      "description": "Hummingbird is a React application developed for pedestrian and public safety by pairing with autonomous drones for surveillance. The project aims to enhance safety measures through real-time monitoring and quick response capabilities. Utilizing advanced technologies such as TensorFlow, OpenCV, and WebSockets, Hummingbird ensures efficient and effective drone navigation and communication.",
+      "links": [
+        "https://github.com/sarthak7awasthi/DronePublicSafety",
+        "https://www.youtube.com/watch?v=NPW5mffgbdI&t=7s"
+      ],
+      "bullets":[
         {
-          "name": "Project 1",
-          "filename": "project1.jpg"
+          "bullet": "Developed a React app for pedestrian and public safety to pair with autonomous drones for surveillance. Implemented drone controls, flight path visualizations, and emergency response options using WebSockets for real-time communication"
         },
         {
-          "name": "Project 2",
-          "filename": "project2.jpg"
+          "bullet": "Engineered autonomous drone navigation with TensorFlow and OpenCV, utilizing AI-driven object detection and pathfinding algorithms to ensure accurate and efficient navigation to the user."
+        },
+        {
+          "bullet": "Developed a user-friendly interface to monitor and control drone activities, significantly improving pedestrian and public safety through proactive surveillance."
+        }
+      ],
+      "images": [
+        {
+          "name": "Hummingbird Home Page",
+          "filename": "HumImg1.jpg"
+        },
+        {
+          "name": "Drone Conformation Page",
+          "filename": "HumImg2.jpg"
+        },
+        {
+          "name": "Emergency Chat",
+          "filename": "HumImg3.jpg"
+        },
+        {
+          "name": "Drone Enroute Page",
+          "filename": "HumImg4.jpg"
+        },
+        {
+          "name": "Figma Design Board",
+          "filename": "HumImg5.jpg"
         }
       ]
     },
     {
       "filename": "Hygia.txt",
-      "jobName": "Hygia (formerly Tridiuum)",
-      "position": "Software Engineer",
-      "URL": "https://lucethealth.com/",
-      "startDate": "September 2020",
-      "endDate": "April 2021",
-      "description": "Contributed to healthcare technology advancements.",
+      "jobName": "Hygia [Philly Codefest 2022 Winner]",
+      "position": "Student Participant",
+      "URL": "https://devpost.com/software/winter-arch",
+      "startDate": "April 2022",
+      "endDate": "April 2022",
+      "description": "Hygia is a React Native-based application designed to support recovering opioid addiction patients. The app utilizes Firebase for real-time data management, Fast-API for efficient backend operations, Docker for seamless deployment, and PostgreSQL for robust data storage. The project integrates healthcare research to provide personalized care and monitoring for patients, aiming to improve their recovery journey through data-driven insights and support.",
       "links": [
-        "https://www.tridiuum.com/case-studies",
-        "https://www.tridiuum.com/research"
+        "https://devpost.com/software/winter-arch",
+        "https://github.com/hruday97/codefest",
+        "https://drexel.edu/cci/stories/addiction-recovery-app-cyber-threat-ai-platform-win-top-awards-at-philly-codefest-2022/",
+        "https://technical.ly/software-development/10-years-philly-codefest-drexel/"
+      ],
+      "bullets":[
+        {
+          "bullet": "Developed a React Native based app for recovering opioid addiction patients and utilised Firebase, Fast-API, Docker, and PostgreSQL for seamless deployment and robust back-end functionality"
+        },
+        {
+          "bullet": "Implemented research findings with healthcare claims from commercial insurance provider to develop Substance Overuse Risk Score using an elastic net regression model with 81% correctness."
+        },
+        {
+          "bullet": "Created features to monitor patient progress and provide personalized care, enhancing the recovery process and overall user experience."
+        }
       ],
       "images": [
         {
-          "name": "Healthcare Tech",
-          "filename": "healthcare_tech.jpg"
+          "name": "Hygia Home Page",
+          "filename": "HygImg1.jpg"
         },
         {
-          "name": "Research",
-          "filename": "research.jpg"
+          "name": "Resources Map",
+          "filename": "HygImg2.jpg"
+        },
+        {
+          "name": "Emergency Contact Page",
+          "filename": "HygImg3.jpg"
+        },
+        {
+          "name": "User Survey",
+          "filename": "HygImg4.jpg"
         }
       ]
     },
     {
         "filename": "Digital_Pathology.txt",
-        "jobName": "Digital_Pathology (formerly Tridiuum)",
-        "position": "Software Engineer",
-        "URL": "https://lucethealth.com/",
+        "jobName": "Digital_Pathology Senior Design Project",
+        "position": "Senior Project",
+        "URL": "https://senior-project-drexel.web.app/PROJECTS/75",
         "startDate": "September 2021",
         "endDate": "April 2022",
-        "description": "Contributed to healthcare technology advancements. Tridiuum2",
-        "links": [
-          "https://www.tridiuum.com/case-studies",
-          "https://www.tridiuum.com/research"
+        "description": "For my Senior Project in COmputer Science i helper develop Digital Pathology, a web application designed to assist pathologists, researchers, and developers in classifying sinusitis severity based on whole slide image inputs. The project utilizes ElectronJS and React to provide a user-friendly interface, integrating advanced image processing techniques to enhance the accuracy and precision of classification.",
+        "links": [],
+        "bullets":[
+          {
+            "bullet": "Developed the web app using ElectronJS and React, ensuring a seamless and intuitive user experience for pathologists and researchers."
+          },
+          {
+            "bullet": "Integrated real-time verification and advanced image processing techniques such as Felzenszwalb, Quickshift, and SLIC, significantly improving the precision of the convolutional neural network (CNN) for accurate sinusitis classification."
+          },
+          {
+            "bullet": "Created an interface that allows for easy navigation and use, enabling efficient classification and analysis of whole slide images."
+          }
         ],
         "images": [
           {
-            "name": "Healthcare Tech 2",
-            "filename": "healthcare_tech.jpg"
+            "name": "Login Page",
+            "filename": "DPImg1.png"
           },
           {
-            "name": "Research 2",
-            "filename": "research.jpg"
+            "name": "Pathologist Upload Page",
+            "filename": "DPImg2.png"
+          },
+          {
+            "name": "Image Pre-processing",
+            "filename": "DPImg3.png"
+          },
+          {
+            "name": "Post-processing",
+            "filename": "DPImg4.png"
           }
         ]
       },
       {
         "filename": "Roof.txt",
-        "jobName": "Roof Print Solutions",
-        "position": "Software Engineer",
-        "URL": "NA",
+        "jobName": "Roof",
+        "position": "Student Participant",
+        "URL": "https://devpost.com/software/roof",
         "startDate": "May 2017",
         "endDate": "September 2019",
-        "description": "Designed Graphics",
+        "description": "Roof is an innovative web application designed to harness idle roof resources by calculating the potential for rainwater harvesting and solar power generation. Utilizing Google Cloud APIs, the application analyzes your address to estimate the total rainfall and solar energy that can be collected from an average roof size of 1000 square meters at that location. Roof aims to promote sustainable living by providing actionable data on renewable energy generation.",
         "links": [
-          "https://www.tridiuum.com/case-studies",
-          "https://www.tridiuum.com/research"
+          "https://www.youtube.com/watch?v=ea0QdUmgJbc",
+          "https://github.com/Ninja-Abu/roof/tree/main/src"
+        ],
+        "bullets":[
+          {
+            "bullet": "Developed features to calculate potential rainwater harvesting and solar power generation using Google Maps and OpenWeatherMaps APIs."
+          },
+          {
+            "bullet": "Utilized Google Cloud APIs to generate maps, autocomplete addresses, and estimate solar output based on geographical data."
+          },
+          {
+            "bullet": "Overcame challenges with Google Maps Polygon and Drawing Manager libraries by finding alternative solutions and optimizing API usage"
+          }
         ],
         "images": [
           {
-            "name": "Healthcare Tech",
-            "filename": "healthcare_tech.jpg"
+            "name": "Find your roof potential",
+            "filename": "RoofImg1.jpg"
           },
           {
-            "name": "Research",
-            "filename": "research.jpg"
+            "name": "Empty Search",
+            "filename": "RoofImg2.jpg"
           }
         ]
       },
       {
         "filename": "Submission.txt",
-        "jobName": "Submission Print Solutions",
+        "jobName": "Submission",
         "position": "Software Engineer",
         "URL": "NA",
-        "startDate": "May 2017",
-        "endDate": "September 2019",
-        "description": "Designed Graphics",
+        "startDate": "May 2014",
+        "endDate": "September 2017",
+        "description": "Submission is a non-profit organization dedicated to empowering underprivileged youth through education and community engagement. As a Youth Representative, I participated in local government meetings to advocate for youth interests and community development. Additionally, I taught after-school computer science classes to underprivileged children, providing them with valuable skills and knowledge to enhance their future opportunities.",
         "links": [
-          "https://www.tridiuum.com/case-studies",
-          "https://www.tridiuum.com/research"
+          "https://www.facebook.com/SubmissionSWS/",
+          "https://www.linkedin.com/company/submissionsws/?originalSubdomain=in"
+        ],
+        "bullets":[
+          {
+            "bullet": "Coordinated events for the organization, planning educational seminars, cultural events, and technical training workshops"
+          },
+          {
+            "bullet": "Tutored Computer Science to high school and middle school students at the afterschool program"
+          },
+          {
+            "bullet": "Represented the organization in local government meetings and lead the Youth for Change campaign as a spokesperson"
+          }
         ],
         "images": [
           {
-            "name": "Healthcare Tech",
-            "filename": "healthcare_tech.jpg"
+            "name": "Speaking at Youth Conference",
+            "filename": "SubImg1.png"
           },
           {
-            "name": "Research",
-            "filename": "research.jpg"
+            "name": "Community Outreach Program",
+            "filename": "SubImg2.png"
+          },
+          {
+            "name": "Teaching Afterschool Classes",
+            "filename": "SubImg3.png"
+          },
+          {
+            "name": "Youth Speaker",
+            "filename": "SubImg4.png"
           }
         ]
       }
