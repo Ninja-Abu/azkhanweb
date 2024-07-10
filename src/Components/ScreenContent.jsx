@@ -5,6 +5,8 @@ import QueryBox from './QueryBox'
 import WorkExp from './Data/workExp.json'
 import ProjExp from './Data/projExp.json'
 import TextScrn from './textScreen'
+import LandingScreen from './LandingScrn'
+import AboutMeScreen from './AboutmeScrn'
 
 import DisplayImages from './DisplayImages'
 
@@ -24,13 +26,17 @@ function ScreenContent({ screenName, searchQuery }) {
         <div className="screen-content-container">
             {screenName === 'Landing.txt' ? (
                 <div className='screen-home-content'>
-                    {screenName}
+                    <LandingScreen />
                 </div>
             ) : screenName === 'About_Me.txt' ? (
                 <div className='screen-about-content'> 
-                    ABOUT ME
+                    <AboutMeScreen />
                 </div>
-            ) : (
+            ) : screenName === 'Classes.txt' || screenName === 'Assignments.txt' ? (
+                <div className='screen-classes-content'>
+                    <p>Sorry, this content is not up right now. Please check back soon.</p>
+                </div>
+            ): (
                 <div className='screen-other-content'>
                     <div className='screen-other-left'>
                             <TextScrn content={job} />

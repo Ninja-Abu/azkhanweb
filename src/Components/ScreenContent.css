@@ -1,17 +1,26 @@
+@font-face {
+    font-family: 'CascadiaCode';
+    src: url('./Assetts/CascadiaCode.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .screen-container{
     /* background-color: red; */
     display: flex;
     width: 100%;
     position: relative;
     overflow: hidden;
+    font-family: 'CascaidaCode', monospace;
 }
 .screen-content-container{
-    background-color: yellow;
+    background-color: #1e1e1e;
     display: flex;
     width: 100%;
+    color: white;
 }
 .screen-home-content{
-    background-color: green;
+    background-color: #1e1e1e;
     display: flex;
     width: 100%;
 }
@@ -24,7 +33,7 @@
 }
 
 .screen-about-content{
-    background-color: orange;
+    background-color: #1e1e1e;
     display: flex;
     width: 100%;
 }

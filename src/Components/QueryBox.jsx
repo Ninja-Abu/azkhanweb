@@ -6,13 +6,14 @@ import knowledgeBase from '../knowledgeBase';
 
 
 function QueryBox({ searchQuery }) {
-    const [queryBoxShow, setQueryBoxShow] = useState(true);
+    const [queryBoxShow, setQueryBoxShow] = useState(false);
     const [answers, setAnswers] = useState([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         if (!searchQuery) return;
 
+        setQueryBoxShow(true);
         const fetchData = async () => {
             setLoading(true);
             try {
@@ -49,13 +50,15 @@ function QueryBox({ searchQuery }) {
                 {answers.map((answer, index) => (
                     <div key={index} className="query-box-text">
                         <p className="query-box-question">
-                            Q---- {answer.question}
+                            <p>Q----</p>
+                            <p> {answer.question}</p>
                         </p>
                         {loading ? (
                             <p className='loaging-text'>Loading...</p>
                         ): (
                             <p className="query-box-answer">
-                                A---- {answer.answer} 
+                                <p>A----</p> 
+                                <p> {answer.answer}</p> 
                             </p>
                         )}
                     </div>
